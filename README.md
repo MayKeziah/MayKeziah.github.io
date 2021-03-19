@@ -1,6 +1,6 @@
 <center>
   
-[About](##about-me) | [Projects](portfolio.html) | [Leadership](activities.md) | [Education](education.md) | [Experience](experience.md)
+[About](##about-me) | [Projects](./portfolio.html) | [Leadership](activities.md) | [Education](education.md) | [Experience](experience.md)
   
 ![headshot](headshot.jpg)
 </center>
