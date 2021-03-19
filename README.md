@@ -1,6 +1,6 @@
 <center>
   
-[About](https://github.com/MayKeziah/MayKeziah.github.io/blob/main/README.md)
+[About](##about-me)
   
 </center>
 
