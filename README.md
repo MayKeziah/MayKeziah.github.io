@@ -6,7 +6,7 @@
 </center>
 
 ## About Me
-A software engineer located in the greater Seattle area of Washington. Bachelor's degree in Computer Science and Software Engineering at the University of Washington Bothell obtained in June 2021. 
+I'm a software engineer located in the greater Seattle area of Washington. I earned a Bachelor's degree in Computer Science and Software Engineering at the University of Washington Bothell in June 2021. 
 
 What am I learning today:
  - Usability Engineering
