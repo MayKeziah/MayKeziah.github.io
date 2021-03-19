@@ -3,3 +3,10 @@ title: Keziah May
 description: Software Engineer | Kirkland, WA | Looking for New-Grad SDE roles 
 plugins:
 - jekyll-relative-links
+include:
+- README.md
+- activities.md
+- education.md
+- experience.md
+- headshot.jpg
+- portfolio.md
