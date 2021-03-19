@@ -1,7 +1,6 @@
 <center>
   
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [About](README.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Projects](portfolio.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Activities](activities.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [ Contact](contactInfo.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
-|:---:|:---:|:---:|:---:|
+[About](README.md)
   
 </center>
 
