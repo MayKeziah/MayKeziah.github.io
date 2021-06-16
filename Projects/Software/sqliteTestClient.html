@@ -1,0 +1,135 @@
+
+
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Keziah May | Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="./../../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="./../../assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="./../../index.html">Keziah May | Software Engineer</a></h1>
+					<nav id="nav">
+						<ul>
+              <li><a href="./../../experience.html">Experience</a></li>
+              <li><a href="./../../education.html">Education</a></li>
+              <li><a href="projects.html">Software Projects</a></li>
+							<li><a href="./../Design/dprojects.html">Design Projects</a></li>
+              <li><a href="./../../leadership.html">Leadership</a></li>
+              <li><a href="./../../contact.html" class="button primary">Contact</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+            <div class="box alt"><div class="row gtr-50 gtr-uniform"><div class="col-12"><span class="image fit"><img src="./../../images/clientBanner.png" alt="" /></span></div></div></div>
+						<header class="major">
+							<h2>SQLite Test Client</h2>
+							<p>Creating a quick fix for my team's problem</p>
+						</header>
+
+            <h2>The Problem</h2>
+            <p>
+              In my Database System's course at the University of Washington Bothell, my team was tasked with 
+              designing, implementing, populating, and querying a database in SQLite3. As our team started establishing
+              norms and expectations, I was nominated unanimously as the team's Project Manager. There was a team 
+              member that was not a CS-major. SQLite was a steap learning curve for them. As the PM, I agreed to complete
+              a code review of every git branch before approving a merge to main. 
+            </p>
+            <p>
+              Our professor had taught us only to use the command line interface for SQLite3. We were instructed to 
+              write all our database code in a text file and then copy-paste the statements line-by-line into the 
+              command line. At that time, we could see line-specific error messages and correct our statements in the 
+              text file. 
+            </p>
+            <p>
+              I very quickly realized that the system we were taught would not allow for quick and efficient code 
+              reviews when merging branches with several files and hundreds of lines of code. So, I developed a solution.
+            </p>
+
+
+            <h2>The Solution</h2>
+            <h3>Structuring My Approach</h3>
+              <p>I knew that I would need to solve a few very specific problems to be able to sustainably carry
+              out my duties as PM. I would need to automate much of my responsibility and be able to quickly run 
+              unit tests, integration tests, and regression tests. 
+              </p>
+              I determined my primary goals:
+              <ol>
+                <li>Find a tool that supports syntax highlighting in SQLite3</li>
+                <li>Get line/statement specific error reporting on a SQLite script without needing to copy/paste
+                  each statement</li>
+                <li>Test the result of each supported query against the expected result</li>
+                <li>Drop and rebuild the database as errors are discovered and corrected</li>
+              </ol>
+            <h3>Choosing My Tools</h3>
+              <p>
+                For my first goal, I learned that I could see syntax highlighting in VSCode when I wrote 
+                SQLite3 scripts in a file with a ".sql" extension. I also learned how to use exisiting extensions
+                for SQLite in VSCode that allowed for database visualization and running entire scripts with the 
+                click of a button. I created a tutorial on how to use VSCode for SQLite development and sent the video 
+                to my classmates and professor. 
+              </p>
+              <p>
+                Though using VSCode was a huge step up from the command line alone, it did not solve goals 2 - 4. 
+                After doing some research, I discovered that Python, the language I was studying at the time, 
+                supported a simple interface with SQLite3. I decided to use python to write code that would run 
+                tests on my team's database. 
+              </p>
+            <h3>Implementing My Solution</h3>
+            
+              Using Python, I wrote code that supported:
+              <ul>
+                <li>Dropping all tables from a database</li>
+                <li>Creating tables in a database using a .sql file with CREATE statements</li>
+                <li>Populating tables using .sql files with INSERT statements</li>
+                <li>Querying tables using .sql files with SELECT statements</li>
+                <li>Testing query results against the expected results</li>
+                <li>Running line/statement specific error-reporting on any .sql file</li>
+              </ul>
+              This code became essential for my team's workflow, so I abstracted it to work on any database,
+              wrote detailed documentation on how to use it, and offered it to my professor to use as a 
+              grading tool or student resource. 
+            </p>
+            <a href="https://github.com/MayKeziah/SQLiteTestClient" class="button primary">Github Repo</a>
+          </div>
+        </div>
+
+			<!-- Footer -->
+      <footer id="footer">
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/keziahmay/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://github.com/MayKeziah" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+				</ul>
+        <ul class="copyright">
+          <li>&copy; Keziah May. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </footer>
+
+    </div>
+
+  <!-- Scripts -->
+    <script src="./../../assets/js/jquery.min.js"></script>
+    <script src="./../../assets/js/jquery.scrolly.min.js"></script>
+    <script src="./../../assets/js/jquery.dropotron.min.js"></script>
+    <script src="./../../assets/js/jquery.scrollex.min.js"></script>
+    <script src="./../../assets/js/browser.min.js"></script>
+    <script src="./../../assets/js/breakpoints.min.js"></script>
+    <script src="./../../assets/js/util.js"></script>
+    <script src="./../../assets/js/main.js"></script>
+
+</body>
+</html>
